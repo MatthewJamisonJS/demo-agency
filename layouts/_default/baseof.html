@@ -1,0 +1,48 @@
+
+
+<!DOCTYPE html>
+<html
+  lang="{{ site.LanguageCode | default `en-US` }}"
+  itemscope
+  itemtype="http://schema.org/WebPage">
+  <head>
+    {{ partial "essentials/head.html" . }}
+
+
+    <!-- cache partial only in production -->
+    {{ if hugo.IsProduction }}
+      {{ partialCached "essentials/style.html" . }}
+    {{ else }}
+      {{ partial "essentials/style.html" . }}
+    {{ end }}
+  </head>
+
+  <body>
+    <!-- Skip to main content link for keyboard navigation -->
+    <a href="#main-content" class="skip-to-content">Skip to main content</a>
+
+    <!-- cache partial only in production -->
+    {{ if hugo.IsProduction }}
+      {{ partialCached "preloader.html" . }}
+      {{ partial "essentials/header.html" . }}
+      {{ partialCached "gtm-noscript.html" . }}
+    {{ else }}
+      {{ partial "preloader.html" . }}
+      {{ partial "essentials/header.html" . }}
+    {{ end }}
+
+
+    <main id="main-content">
+      {{ block "main" . }}{{ end }}
+    </main>
+
+    <!-- cache partial only in production -->
+    {{ if hugo.IsProduction }}
+      {{ partialCached "essentials/script.html" . }}
+      {{ partialCached "essentials/footer.html" . }}
+    {{ else }}
+      {{ partial "essentials/script.html" . }}
+      {{ partial "essentials/footer.html" . }}
+    {{ end }}
+  </body>
+</html>

@@ -18,3 +18,16 @@ node_modules/
 
 # Hugo stats
 hugo_stats.json
+
+# Theme exampleSite
+/themes/*/exampleSite/
+
+# Environment files
+.env
+.env.local
+*.pem
+
+# Temporary files
+*.tmp
+*.bak
+*~

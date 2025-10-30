@@ -1,0 +1,20 @@
+# Global code owners
+* @MatthewJamisonJS
+
+# Configuration files
+/.github/ @MatthewJamisonJS
+/config/ @MatthewJamisonJS
+/hugo.toml @MatthewJamisonJS
+/.gitignore @MatthewJamisonJS
+
+# Content management
+/content/ @MatthewJamisonJS
+/data/ @MatthewJamisonJS
+
+# Theme and styling
+/themes/ @MatthewJamisonJS
+/assets/ @MatthewJamisonJS
+
+# Documentation
+/*.md @MatthewJamisonJS
+/LICENSE @MatthewJamisonJS
