@@ -1,0 +1,56 @@
+{
+  "name": "Professional Agency Services - Matthew Jamison Portfolio Demo",
+  "short_name": "Professional Agency Services - Matthew Jamison Portfolio Demo",
+  "lang": "en-us",
+  "display": "fullscreen",
+  "orientation" : "portrait",
+  "start_url": "//localhost:1314/?utm_source=web_app_manifest",
+  "background_color": "#fff",
+  "theme_color": "#FE6019",
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  "icons": [
+    {
+      "src": "/images/favicon_hu_f1ebaa5aa129fff9.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon_hu_eefac998b63ffbd4.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon_hu_f4bf5c65049833c3.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon_hu_4550907075a63b2a.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon_hu_44258ad0dea42cae.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/favicon_hu_8139b4605b09ac7f.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+  
+  
+}
